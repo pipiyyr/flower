@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+form,input{
+    outline: none;
+}
+/* 设置文字的大小，字体，回退系统 (第一个文字没有，自动找第二个) */
+body{
+    /*倾斜 加粗*/
+    font: 16px/1.5  "Microsoft YaHei , sans-serif";
+    color: #333333;
+}
+/* 默认下划线清除，超链接的颜色 */
+/*nav*/
+a{
+    text-decoration: none;
+    color: #333333;}
+i{
+    font-style: normal;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1047344 */
+    src: url('//at.alicdn.com/t/font_1047344_ymawbblbgw.eot');
+    src: url('//at.alicdn.com/t/font_1047344_ymawbblbgw.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1047344_ymawbblbgw.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1047344_ymawbblbgw.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1047344_ymawbblbgw.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1047344_ymawbblbgw.svg#iconfont') format('svg');
+}

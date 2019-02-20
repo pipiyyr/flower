@@ -1,0 +1,267 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 79px;
+    background:white;
+    border-bottom: 1px solid rgb(228, 234, 236);
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto; /*一个元素在另一个元素中水平居中*/
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/*行内元素默认从左往右,无宽高属性，除非加上display*/
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.navlist {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navlist li{
+    float: left;
+    width: 86px; /*宽度小于等于和的*/
+    height: 100%;
+}
+.navlist li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;
+}
+.navlist li a:hover{
+    color:#16b0bc;
+}
+/*鼠标移入时*/
+/*nav*/
+.met-banner{
+    width: 100%;
+    height: 120px;
+    /*background: #f1f1f1;*/
+    margin-top: 79px;
+}
+.met-banner h1{
+    width: 140px;
+    height: 42px;
+    margin: 0 auto;
+    color:#F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 39px 30px;
+    line-height: 42px;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    height: 819px;
+    padding: 30px 0;
+    background: #f2f2f2;
+}
+.message{
+    width:1170px;
+    height: 759px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.message-left{
+    float: left;
+    width: 690px;
+    height: 699px;
+    padding: 30px 30px;
+    background: white;
+}
+.list-group{
+    width: 688px;
+    height: 57px;
+    margin-bottom: -1px;
+    padding: 10px 10px;
+    border:1px solid transparent;
+    border-bottom-color:#a3afb7 ;
+}
+.media{
+    width: 688px;
+    height: 53px;
+    padding: 2px 0;
+}
+.media-left{
+    float: left;
+    width: 46px;
+    height: 53px;
+}
+.iconfont{
+    font-family: iconfont;
+    width: 36px;
+    height: 53px;
+    line-height: 53px;
+    color: #a3afb7;
+    margin-right: 10px;
+}
+.media-body{
+    float: left;
+    width: 642px;
+    height: 53px;
+    background: white;
+}
+.media-body h4{
+    float: left;
+    width: 642px;
+    height: 16px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.media-body p{
+    float: right;
+    font-size: 14px;
+    color: #a3afb7;
+}
+.media-body p1{
+    display: block;
+    margin-bottom: 11px;
+    width: 642px;
+    height: 21px;
+    font-size: 14px;
+    color: #76838f;
+}
+.list-group1{
+    width: 688px;
+    height: 120px;
+    margin-bottom: -1px;
+    padding: 10px 10px;
+    border:1px solid transparent;
+    border-bottom-color:#a3afb7 ;
+}
+.media-content{
+    width: 600px;
+    height: 21px;
+    margin-left: 44px;
+    padding: 20px 20px;
+    border: 1px solid #e4eaec;
+    background: #f3f7f9;
+}
+.message-right{
+    float: right;
+    width: 330px;
+    height: 464px;
+    padding: 30px 30px;
+}
+.submit{
+    width: 330px;
+    height: 404px;
+}
+.from-group{
+    border: 1px solid rgb(228, 234, 236);
+    width: 328px;
+    height: 36px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.content1{
+    box-shadow: none;
+    width: 296px;
+    height: 22px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+
+}
+.from-group1{
+    border: 1px solid rgb(228, 234, 236);
+    width: 328px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.from-group2{
+    border: 1px solid rgb(228, 234, 236);
+    width: 328px;
+    height: 36px;
+}
+.jianyi{
+    box-shadow: none;
+    width: 296px;
+    height: 98px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+}
+.tijiao{
+    box-shadow: none;
+    width: 328px;
+    height: 36px;
+    background: #62a8ea;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+}
+/*message*/
+
+.under{
+    width: 100%;
+    height: 170px;
+    background: darkgray;
+    margin-top: 30px;
+
+}
+.small{
+    width: 150px;
+    height: 50px;
+    background: darkgray;
+    margin: 10px auto;
+}
+.under span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /*background: cyan;*/
+    float: left;
+    margin: 10px
+}
+.small span img{
+    width: 30px;
+    height: 30px;
+}
+.change{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.change a{
+    margin: 0 auto;
+    color: dodgerblue;
+}
+.change a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+.change img{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+/*foot*/

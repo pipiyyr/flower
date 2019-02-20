@@ -1,0 +1,206 @@
+.nav{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+/* 放图片和首页一排字的盒子 */
+.navContent{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* 放logo的左边的小盒子 往左浮 是用 float 属性*/
+.logo{
+    width: 150px;
+    height: 50px;
+    float:left;
+    margin-top: 14px;
+}
+/* a 行内元素 ，没有宽高属性 */
+/* 点击logo时，可以跳转到另一个界面，所以他要有一个超链接 */
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* logo图片*/
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList{
+    width: 602px;
+    height: 100%;
+    float:right;
+
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+
+}
+/* 超链接文字的水平居中，垂直居中，字体大小  让字体颜色慢慢的变用transition属性*/
+.navList li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    /*文本水平居中*/
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    /* 过渡时间 直接写 .几秒 */
+    transition:color linear .5s;
+}
+/* 鼠鼠标移上去，文字变颜色 */
+.navList li a:hover{
+    color: #16b0bc;
+}
+/*中间*/
+.chart {
+    width: 100%;
+    height: 998px;
+    margin-top: 79px;
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.mid{
+    width: 50%;
+    height: 499px;
+    overflow: hidden;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/素馨花艺1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img:hover{
+    transform: scale(1.2);
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/素馨花艺2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.img2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/素馨花艺3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img2:hover{
+    transform: scale(1.2);
+}
+.img3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/素馨花艺4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img3:hover{
+    transform: scale(1.2);
+}
+.img-font {
+    width: 160px;
+    height: 138px;
+    /*background: lightpink;*/
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.font-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #fff;
+}
+.font-look {
+    width: 28px;
+    height: 22px;
+    padding: 6px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid #f0f2f5;
+    cursor: pointer;
+}
+.font-look:hover {
+    background: #fffdfe;
+    color: #76838f;
+}
+
+
+/*底部*/
+
+.under{
+    width: 100%;
+    height: 170px;
+    background: darkgray;
+    margin-top: 50px;
+
+}
+.small{
+    width: 150px;
+    height: 50px;
+    background: darkgray;
+    margin: 10px auto;
+}
+.under span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /*background: cyan;*/
+    float: left;
+    margin: 10px
+}
+.small span img{
+    width: 30px;
+    height: 30px;
+}
+.change{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.change a{
+    margin: 0 auto;
+    color: dodgerblue;
+}
+.change a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+.change img{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}

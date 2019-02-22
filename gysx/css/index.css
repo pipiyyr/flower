@@ -154,6 +154,7 @@ a{
     border-radius:10px ;
     text-align: center;
     color: white;
+    line-height: 40px;
 }
 .red2{
     width: 345px;
@@ -163,6 +164,7 @@ a{
     border-radius:10px ;
     text-align: center;
     color: white;
+    line-height: 40px;
 }
 /*.longSmall span{*/
     /*display: block;*/
@@ -300,13 +302,6 @@ a{
 .itemInfo p.infoDesc{
     padding: 5px  0;
 }
-
-
-
-
-    /*text */
-
-
 
 .one{
     background: white;

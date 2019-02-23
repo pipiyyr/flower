@@ -74,6 +74,7 @@
     width: 50%;
     height: 499px;
     overflow: hidden;
+    transition: all 0.5s;
 }
 .img {
     width: 100%;
@@ -84,9 +85,11 @@
     justify-content: center;
     align-items: center;
     display: flex;
+
 }
 .img:hover{
     transform: scale(1.2);
+
 }
 .img1 {
     width: 100%;
